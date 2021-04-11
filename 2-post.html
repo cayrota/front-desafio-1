@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>Início</title>
+    <title>Post</title>
 </head>
 
 <body>
@@ -22,54 +22,75 @@
 
     <div class="content">
         <main>
-            <div class="card-post" id="top-post">
+            <div class="post" id="post">
                 <h1>Lorem ipsum dolor sit amet</h1>
                 <h3>26/07/2020 às 00:04 - By: Fulano</h3>
                 <img src="./assets/pessoa.png" alt="">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                    vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh.
-                    Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
+                    vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
                 </p>
                 <p>
                     Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
                     enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
                     vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
                 </p>
-                <a href="2-post.html">Continue lendo</a>
-            </div>
-            <div class="card-post">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <h3>26/07/2020 às 00:04 - By: Fulano</h3>
-                <img src="./assets/computador.png" alt="">
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur.
+                        <ul>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Numquam, similique debitis!</li>
+                            <li>Itaque, nam labore?
+                            </ul>
+                    </li>
+                    <li>
+                        Quibusdam sapiente velit nulla delectus enim?
+                    </li>
+                    <li>
+                        Officia dolore autem sint aliquid commodi!
+                    </li>
+                    <li>
+                        Eius asperiores deserunt aliquid animi quo.
+                    </li>
+                    <li>
+                        Saepe explicabo blanditiis aspernatur suscipit voluptates.</li>
+                    </li>
+                </ul>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
+                </p>
+                <p class="italico">
+                    Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo, vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit. 
+                </p>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                    vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh.
-                    Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
+                    vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh. Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
                 </p>
                 <p>
                     Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
                     enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
                     vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
                 </p>
-                <a href="">Continue lendo</a>
             </div>
-            <div class="card-post">
-                <h1>Lorem ipsum dolor sit amet</h1>
-                <h3>26/07/2020 às 00:04 - By: Fulano</h3>
-                <img src="./assets/pintura.png" alt="">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus quis augue elementum
-                    vestibulum. Nam a orci erat. Aenean arcu mauris, finibus a rutrum quis, commodo sollicitudin nibh.
-                    Morbi diam lacus, suscipit nec maximus et, tincidunt at quam.
-                </p>
-                <p>
-                    Curabitur sit amet euismod mi. Duis dictum vel ipsum vel tempus. Etiam diam nisl, feugiat ornare
-                    enim ac, aliquam ultrices erat. Nam tincidunt cursus dui. Integer varius nisi quis dui commodo,
-                    vitae euismod nisi elementum. Vivamus tincidunt id massa eget blandit.
-                </p>
-                <a href="">Continue lendo</a>
-            </div>
+            <form action="" class="form-comentarios">
+                <h1 class="titulo">Comentários</h1>
+                <div class="nome">
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="" id="nome">
+                </div>
+                <div class="email">
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="" id="email">
+                </div>
+                <div class="comentario">
+                    <label for="comentario">Comentário</label><br>
+                    <textarea name="comentario" id="comentario"></textarea>
+                </div>
+                <div class="botao">
+                    <button type="submit">Comentar</button>
+                </div>
+            </form>
         </main>
 
         <aside>

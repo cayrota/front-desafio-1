@@ -198,3 +198,121 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+.post {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    width: min-content;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.375rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: #000
+}
+
+.post {
+    margin-top: 2.5rem;
+}
+
+.post > h1 {
+    margin: 1.5rem 1.5rem 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.post > img {
+    margin: 0 0 1.5rem;
+}
+
+.post > h3 {
+    margin: 0.5rem 1.5rem 0.875rem;
+    font-size: 12px;
+    color: #929292;
+    font-weight: 400;
+}
+
+.post > p {
+    margin: 0 1.5rem 1.5rem;
+}
+
+.italico {
+    font-style: italic;
+}
+
+main ul {
+    margin: 0 1.5rem 1.5rem;
+}
+
+.form-comentarios {
+    display: grid;
+    grid-template-areas: "titulo titulo" "nome email" "comentario comentario" "botao botao";
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    font-size: 14px;
+    margin: 1rem 0 2rem;
+}
+
+.titulo {
+    grid-area: titulo;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.nome {
+    grid-area: nome;
+}
+
+.nome #nome {
+    height: 2.625rem;
+    width: 22.125rem;
+    border: none;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+
+.email {
+    grid-area: email;
+}
+
+.email #email {
+    height: 2.625rem;
+    width: 22.125rem;
+    border: none;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+
+.comentario {
+    grid-area: comentario;
+}
+
+textarea#comentario {
+    width: 45.75rem;
+    height: 11rem;
+    border: none;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+}
+#nome:focus, #email:focus, #comentario:focus {
+    border: 1px solid #FE0078;
+    outline: none;
+}
+
+.botao {
+    grid-area: botao;
+    margin-top: 1.5rem;
+    justify-self: right;
+}
+
+.botao button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #FE0078;
+    border: none;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+}
