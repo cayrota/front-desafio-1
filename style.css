@@ -366,13 +366,8 @@ textarea#comentario {
 
 .contato .form-comentarios {
     margin: 0;
+    grid-template-areas: "titulo titulo" "nome email" "assunto assunto" "comentario comentario" "botao botao";
     width: min-content;
-}
-
-.contato .form-comentarios textarea#comentario {
-    width: 42.625rem;
-    border: 1px solid #EEEEEE;
-    border-radius: 2px;
 }
 
 .contato .form-comentarios .nome #nome {
@@ -383,6 +378,25 @@ textarea#comentario {
 
 .contato .form-comentarios .email #email {
     width: 20.4375rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+}
+
+.contato .assunto {
+    grid-area: assunto;
+}
+
+.contato .form-comentarios .assunto #assunto {
+    width: 42.625rem;
+    height: 2.625rem;
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.contato .form-comentarios textarea#comentario {
+    width: 42.625rem;
     border: 1px solid #EEEEEE;
     border-radius: 2px;
 }
